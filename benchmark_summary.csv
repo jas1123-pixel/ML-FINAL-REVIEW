@@ -1,0 +1,4 @@
+Regime,Epsilon,Noise Multiplier (sigma),Global Accuracy,Macro F1,Detection Rate (DR),False Alarm Rate (FAR),MIA Attack AUC (Risk),Privacy Verdict
+Non-Private FedAvg (eps = inf),inf (Non-Private),0.0,99.74%,0.9949,99.42%,0.08%,0.516,LOW / SAFE
+DP-FedAvg Moderate (eps ~ 3.5),3.37,0.8,99.32%,0.9846,99.27%,0.41%,0.516,LOW / SAFE
+DP-FedAvg Strict (eps ~ 1.5),1.45,1.8,98.84%,0.9747,97.24%,0.17%,0.519,LOW / SAFE
